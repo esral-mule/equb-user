@@ -1,0 +1,257 @@
+{
+    "coming": {
+        "message": "Coming soon"
+    },
+    "layout":{
+        "logoName":"Equb",
+        "dashboard":"Dashboard",
+        "equbs":"Equbs",
+        "createequb":"Create Equb",
+        "createUser":"Create User",
+        "setting":"Settings",
+        "myAccount":"My Account",
+        "support":"Support",
+        "logout":"Logout"
+    },
+    "logout": {
+        "title": "Logout",
+        "des": "Are you sure you want to logout?",
+        "confirm": "Yes, Logout",
+        "declain": "Cancel"
+    },
+    "creatUser": {
+        "title": "Create Equber",
+        "fullName": "Full Name",
+        "username": "Username",
+        "phoneNumber": "Phone Number",
+        "password": "Password",
+        "createEquber": "Create Equber",
+        "loading": "Loading",
+        "placeHolder": {
+            "fullName": "Full Name ...",
+            "username": "Username ...",
+            "phoneNumber": "Phone Number ...",
+            "password": "Your Password",
+            "createEquber": "Create Equber"
+        }
+    },
+    "ListEqubes": {
+        "title": "List of Equbes",
+        "des": "List of all Equb's of the house",
+        "table": {
+            "name": "Name",
+            "contribution": "Amount",
+            "maxUniqueIds": "UniqueIds",
+            "lotteryDay": "LotteryDay",
+            "contributionDay": "ContributionDay",
+            "numberOfequbes": "Equbes"
+        }
+    },
+    "createeqube": {
+        "title": "Add New Equb To House",
+        "equbName": "Equb Name",
+        "contributionDay": "Contribution Day",
+        "lotteryDay": "Lottery Day",
+        "contribution": "Contribution",
+        "maxUniqueIds": "Total UniqueIds",
+        "create": "Create Equb",
+        "loading": "Loading",
+        "placeHolder": {
+            "equbName": "Equb Name ...",
+            "contributionDay": "Contribution Day ...",
+            "lotteryDay": "Lottery Day ...",
+            "contribution": "Contribution ...",
+            "maxUniqueIds": "Total UniqueIds ..."
+        }
+    },
+    "tabs": {
+        "members": {
+            "tabTitle": "Members",
+            "title": "Memeber list",
+            "des": "All Equb member list",
+            "print": "print",
+            "loading": "loading",
+            "searchPlaceHolder": "Search member...",
+            "columns": "Columns",
+            "of":"of",
+            "members":"Members"
+        },
+        "roundes": {
+            "tabTitle": "History"
+        },
+        "active": {
+            "tabTitle": "Active",
+            "title":"Ongoing Equb Round",
+            "des":"Ongoing Equb Round Payment History"
+        },
+        "equbLevel": {
+            "tabTitle": "Levels"
+        }
+    },
+    "membersTable": {
+        "fullName": "Full Name",
+        "phoneNumber": "Phone Number",
+        "level": "Level",
+        "uniqueId": "UniqueId",
+        "actions": "Actions",
+        "detail": "Detail",
+        "delete": "Delete",
+        "previous": "Previous",
+        "next": "Next",
+        "memebers": "Memebers",
+        "of": "of"
+    },
+    "memberDetail": {
+        "detail": "Detail",
+        "title": "Member Detail",
+        "des": "Detailed information about the selected member.",
+        "fullName": "Full Name:",
+        "phoneNumber": "Phone Number:",
+        "username": "Username:",
+        "equbType": "Equb Type:",
+        "equbLevel:": "Equb Level:",
+        "uniqueId": "Unique ID:",
+        "close": "Close"
+    },
+    "memberDelete": {
+        "delete": "Delete",
+        "title": "Delete Member",
+        "des": "Please make sure you want to delete",
+        "close": "Cancel",
+        "confirm": "Delete"
+    },
+    "addMember": {
+        "name": "Add Member",
+        "title": "Add Member",
+        "des": "Fill all the required fields to add a member to equb",
+        "member": "Member",
+        "equbLevel": "Equb Level",
+        "uniqueId": "Unique Id",
+        "close": "Cancel",
+        "confirm": "Add Member",
+        "selectUser": "Select User",
+        "selectEqubLevel": "Select EqubLevel",
+        "SelectUniqueId": "Select UniqueId"
+    },
+    "creatNewUser": {
+        "name": "Create New User",
+        "title": "Create User",
+        "des": "Add Equb User",
+        "fullName": "Full Name",
+        "phoneNumber": "Phone Number",
+        "username": "Username",
+        "password": "Password",
+        "loading": "Creating...",
+        "confirm": "Create",
+        "placeholders": {
+            "fullName": "Full Name...",
+            "phoneNumber": "Phone Number...",
+            "username": "Username...",
+            "password": "Password..."
+        }
+    },
+    "addEqubLevel": {
+        "name": "Add Equb Level",
+        "title": "Add Equb Level",
+        "des": "Create and add new Equb Level",
+        "lable": "Title",
+        "contribution": "Contribution",
+        "cancel": "Cancel",
+        "loading": "Creating...",
+        "confirm": "Create"
+    },
+    "uniqueIdDetail": {
+        "fullName": "Full Name",
+        "level": "Level",
+        "amount": "Amount",
+        "total": "Total",
+        "noMember": "No Member is assigned to this UniqueId"
+    },
+    "equbLevels": {
+        "title": "Equb Levels",
+        "des": "List of all Equb levels",
+        "levelTitle": "Title",
+        "contribution": "Contribution",
+        "actions": "Actions",
+        "equbLevels": "Equb Levels"
+    },
+    "deleteEqubLevel":{
+        "delete":"Delete",
+        "title":"Delete Equb level",
+        "des":"Please make sure you want to delete",
+        "fullName":"Full Name",
+        "level":"Level",
+        "amount":"Amount",
+        "noMember":"No Member is assigned to this UniqueId",
+        "cancel":"Cancel"
+    },
+    "contributionTable": {
+        "columns": "Columns",
+        "noresult":"No results",
+        "pre":"Previous",
+        "next":"Next",
+        "fullName":"Full Name",
+        "phoneNumber":"Phone Number",
+        "contribution":"Contribution",
+        "status":"Status",
+        "actions":"Actions",
+        "of":"Of",
+        "contributions":"Contributions",
+        "paid":"Paid",
+        "unpaid":"Unpaid"
+
+    },
+    "updatePayment":{
+        "name":"Update",
+        "title":"Are you absolutely sure?",
+        "des":"you are updating payment status",
+        "cancel":"Cancel",
+        "confirm":"Continue"
+    },
+    "closeActiveRound":{
+        "name":"Close Round",
+        "title":"Lottery day",
+        "des":"Select winner unique Id",
+        "searchPlaceHolder":"Unique Id",
+        "uniqueId":"Unique Id",
+        "cancel":"Cancel",
+        "confirm":"Close round"
+    },
+    "startRound":{
+        "name":"Start New Round",
+        "title":"Are you absolutely sure?",
+        "des":"You are about to start new round. please make sure if you have closed other opend rounds.",
+        "cancel":"Cancel",
+        "confirm":"Continue"   
+    },
+    "roundes":{
+        "title":"Equb Rounds",
+        "des":"Select Equb-round to see history"
+    },
+    "selectRound":{
+        "placeholder":"Select round",
+        "roundes":"Rounds",
+        "round":"Round"
+    },
+    "deleteEqub":{
+        "name":"Delete",
+        "title":"Delete Equb",
+        "des":"Please make sure you want to delete",
+        "cancel":"Cancel",
+        "confirm":"Delete"   
+    },
+    "support":{
+        "nameReq":"Name is required",
+        "emilReq":"Email is required",
+        "emailInvalid":"Email address is invalid",
+        "messageReq":"Message is required",
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "loading":"Loading",
+        "btnName":"Send email",
+        "toastTitle":"Email",
+        "toastSuccess":"We have received your message",
+        "toastError":"Email send failed"
+    }
+}

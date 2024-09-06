@@ -1,0 +1,256 @@
+{
+    "coming": {
+        "message": "ኣብ ቀረባ እዋን"
+    },
+    "layout": {
+        "logoName": "ዕቁብ",
+        "dashboard": "ዳሽቦርድ",
+        "equbs": "ዕቁባት",
+        "createequb": "ሓዱሽ ዕቑብ ይመዝግቡ",
+        "createUser": "ሓዱሽ ተጠቃሚ ይመዝግቡ",
+        "setting": "መስተኻኸሊ",
+        "myAccount": "ናተይ ኣካውንት",
+        "support": "ሓገዝ",
+        "logout": "ንምውፃእ"
+    },
+    "logout": {
+        "title": "ንምውፃእ",
+        "des": "ክወፁ ከምዝደልዩ ርግፀኛ ድዮም?",
+        "confirm": "እወ ክወፅእ",
+        "declain": "ኣይ መልሰኒ"
+    },
+    "creatUser": {
+        "title": "ዕቁብተኛ ይመዝግቡ",
+        "fullName": "ምሉእ ሽም",
+        "username": "ፍሉይ መለለይ ሽም",
+        "phoneNumber": "ስልኪ ቁፅሪ",
+        "password": "ናይ ሚስጥር ቃል",
+        "createEquber": "ዕቁብተኛ መዝግብ",
+        "loading": "ኣብ ምምዝጋብ",
+        "placeHolder": {
+            "fullName": "ምሉእ ሽም የእትው",
+            "username": "ፍሉይ መለለይ ሽም የእትው",
+            "phoneNumber": "ስልኪ ቁፅሪ የእትው",
+            "password": "ናይ ሚስጥር ቃልቃሎም የእትው"
+        }
+    },
+    "ListEqubes": {
+        "title": "ናይ ዕቁባት ዝርዝር",
+        "des": "ናይዚ ገዛ ሙሉእ ናይ ዕቁባት ዝርዝር",
+        "table": {
+            "name": "ስም",
+            "contribution": "ክፍሊት መጠን",
+            "maxUniqueIds": "በዝሒ ዕፃ",
+            "lotteryDay": "ዕፃ ዝወድቀሉ መዓልቲ",
+            "contributionDay": "ዝእከበሉ መዓልቲ",
+            "numberOfequbes": "ዕቁባት"
+        }
+    },
+    "createeqube": {
+        "title": "ሓዱሽ ዕቁብ መዝግብ",
+        "equbName": "ዕቁብ ስም",
+        "contribution": "ክፍሊት መጠን",
+        "maxUniqueIds": "በዝሒ ዕፃ",
+        "lotteryDay": "ዕፃ ዝወድቀሉ መዓልቲ",
+        "contributionDay": "ዝእከበሉ መዓልቲ",
+        "create": "ዕቁብ መዝግብ",
+        "loading": "ኣብ ምምዝጋብ",
+        "placeHolder": {
+            "equbName": "ዕቁብ ስም የእትው",
+            "contribution": "ክፍሊት መጠን የእትው",
+            "maxUniqueIds": "በዝሒ ዕፃ የእትው",
+            "lotteryDay": "ዕፃ ዝወድቀሉ መዓልቲ የእትው",
+            "contributionDay": "ዝእከበሉ መዓልቲ የእትው"
+        }
+    },
+    "tabs": {
+        "members": {
+            "tabTitle": "ኣባላት",
+            "title": "ናይ ኣባላት ዝርዝር",
+            "des": "ምሉእ ናይ ኣባላት ዝርዝር",
+            "print": "ሕትመት",
+            "loading": "ዝርዝር ኣብ ምዝግጃው",
+            "searchPlaceHolder": "ኣባል ኣልሽ...",
+            "columns": "ሪጋ",
+            "addMember": "ኣባል መዝግብ",
+            "of": "ካብ",
+            "members":"ዕቁብ ኣባላት"
+        },
+        "roundes": {
+            "tabTitle": "ታሪክ"
+        },
+        "active": {
+            "tabTitle": "ኣብ ከይዲ ዘሎ",
+            "title": "ኣብ ከይዲ ዘሎ ዙር",
+            "des": "ኣብ ከይዲ ዘሎ ናይዚ ዕቁብ ዙር"
+        },
+        "equbLevel": {
+            "tabTitle": "ደረጃታት"
+        }
+    },
+    "membersTable": {
+        "fullName": "ሽም",
+        "phoneNumber": "ስልኪ ቁፅሪ",
+        "level": "ደረጃ",
+        "uniqueId": "ዕፃ ቁፅሪ",
+        "actions": "ተግባራት",
+        "detail": "ዝርዝር",
+        "delete": "ደምስስ",
+        "previous": "ሕሉፍ",
+        "next": "ቀፃሊ",
+        "memebers": "ኣባላት",
+        "of": "ካብ"
+    },
+    "memberDetail": {
+        "detail": "ዝርዝር",
+        "title": "ናይ ኣባል ዝርዝር",
+        "des": "ናይ ኣባል ዝርዝር ሓበሬታ",
+        "fullName": "ሽም",
+        "phoneNumber": "ስልኪ ቁፅሪ",
+        "username": "ፍሉይ መለለይ ሽም",
+        "equbType": "ዕቁብ ሽም",
+        "equbLevel": "ዕቁብ ደረጃ",
+        "uniqueId": "ዕፃ ቁፅሪ",
+        "close": "መልሰኒ"
+    },
+    "memberDelete": {
+        "delete": "ኣጥፍእ",
+        "title": "ኣባል ኣጥፍእ",
+        "des": "እዚ ኣባል ካብ ዕቁብ መዝገብ ንምጥፋእ የረጋግፁ",
+        "close": "ኣይ መልሰኒ",
+        "confirm": "እወ ኣጥፍእ"
+    },
+    "addMember": {
+        "name": "ኣባል መዝግብ",
+        "title": "ኣባል ዕቁብ መዝግብ",
+        "des": "ኩሎም ኣገደስቲ ሓበሬታት ብምምላእ ኣባል ዕቁብ ይመዝግቡ",
+        "member": "ኣባል",
+        "equbLevel": "ዕቁብ ደረጃ",
+        "uniqueId": "ዕፃ ቁፅሪ",
+        "close": "መልሰኒ",
+        "confirm": "ኣባል ዕቁብ መዝግብ",
+        "selectUser": "ተጠቃሚ ይምረፁ",
+        "selectEqubLevel": "ዕቁብ ደረጃ ይምረፁ",
+        "SelectUniqueId": "ዕፃ ቁፅሪ ይምረፁ"
+    },
+    "creatNewUser": {
+        "name": "ተጠቃሚ መዝግብ",
+        "title": "ተጠቃሚ መዝግብ",
+        "des": "ሓዱሽ ተጠቃሚ መዝግብ",
+        "fullName": "ሽም",
+        "phoneNumber": "ስልኪ ቁፅሪ",
+        "username": "ፍሉይ መለለይ ሽም",
+        "password": "ናይ ሚስጥር ቃል",
+        "loading": "ኣብ ምምዝጋብ",
+        "confirm": "መዝግብ",
+        "placeholders": {
+            "fullName": "ሽም የእትው",
+            "phoneNumber": "ስልኪ ቁፅሪ የእትው",
+            "username": "ፍሉይ መለለይ ሽም የእትው",
+            "password": "ናይ ሚስጥር ቃል የእትው"
+        }
+    },
+    "addEqubLevel": {
+        "name": "ሓዱሽ ደረጃ",
+        "title": "ሓዱሽ ደረጃ",
+        "des": "ሓዱሽ ደረጃ ወስኽ",
+        "lable": "ሽም",
+        "contribution": "በዝሒ ብር",
+        "cancel": "መልሰኒ",
+        "loading": "ኣብ ምምዝጋብ",
+        "confirm": "መዝግብ"
+    },
+    "uniqueIdDetail": {
+        "fullName": "ሽም",
+        "level": "ደረጃ",
+        "amount": "በዝሒ ብር",
+        "total": "ጠቕላላ በዝሒ ብር",
+        "noMember": "እዚ ዕፃ ቁፅሪ ኣይተትሓዘን"
+    },
+    "equbLevels": {
+        "title": "ናይ ዕቁብ ደረጃታት",
+        "des": "ኩሎም ናይዚ ዕቁብ ደረጃታት",
+        "levelTitle": "ደረጃ",
+        "contribution": "በዝሒ ብር",
+        "actions": "ተግባራት",
+        "equbLevels": "ዕቁብ ደረጃታት"
+    },
+    "deleteEqubLevel": {
+        "delete": "ኣጥፍእ",
+        "title": "ዕቁብ ደረጃ ኣጥፍእ",
+        "des": "እዚ ዕቁብ ደረጃ ንምጥፋእ የረጋግፁ",
+        "fullName": "ሽም",
+        "level": "ደረጃ",
+        "amount": "በዝሒ ብር",
+        "noMember": "እዚ ዕፃ ቁፅሪ ኣይተትሓዘን",
+        "cancel": "መልሰኒ"
+    },
+    "contributionTable": {
+        "columns": "ሪጋ",
+        "noresult": "ውፅኢት የለን",
+        "pre": "ሕሉፍ",
+        "next": "ቀፃሊ",
+        "fullName": "ሽም",
+        "phoneNumber": "ስልኪ ቁፅሪ",
+        "contribution": "በዝሒ ብር",
+        "status": "ክፍሊት ኩነት",
+        "actions": "ተግባራት",
+        "of": "ካብ",
+        "contributions": "መዝገባት ክፍሊት",
+        "paid": "ተኸፊሉ",
+        "unpaid": "ኣይተኸፈለን"
+    },
+    "updatePayment": {
+        "name": "ቀይር",
+        "title": "ክፍሊት ኩነት ምቅያር",
+        "des": "ክፍሊት ኩነት ንምቅያር ርግፀኛ ድዮም?",
+        "cancel": "መልሰኒ",
+        "confirm": "ክፍሊት ኩነት ቀይር"
+    },
+    "closeActiveRound": {
+        "name": "ዙር ዛዝም",
+        "title": "ዕፃ ዝወድቀሉ መዓልቲ",
+        "des": "ተዓዋታይ ዕፃ ቁፅሪ ይምረፁ",
+        "searchPlaceHolder": "ዕፃ ቁፅሪ ይምረፁ",
+        "uniqueId": "ዕፃ ቁፅሪ",
+        "cancel": "መልሰኒ",
+        "confirm": "ዙር ዛዝም"
+    },
+    "startRound": {
+        "name": "ሓዱሽ ዙር ጀምር",
+        "title": "ሓዱሽ ዙር ጀምር",
+        "des": "ሓዱሽ ዙር ንምጅማር ርግፀኛ ድዮም?",
+        "cancel": "መልሰኒ",
+        "confirm": "ሓዱሽ ዙር ጀምር"
+    },
+    "roundes": {
+        "title": "ናይዚ ዕቁብ ዙራት",
+        "des": "ካብቶም ተዘርዚሮም ዘለዉ ዙራት ሓደ ይምረፁ"
+    },
+    "selectRound": {
+        "placeholder": "ዙር ይምረፁ",
+        "roundes": "ዙራት",
+        "round": "ዙር"
+    },
+    "deleteEqub":{
+        "name":"ኣጥፍእ",
+        "title":"ዕቁብ  ኣጥፍእ",
+        "des":"እዚ ዕቁብ ንምጥፋእ የረጋግፁ",
+        "cancel":"መልሰኒ",
+        "confirm":"ኣጥፍእ"   
+    },
+    "support":{
+        "nameReq":"ሽም የእትው",
+        "emilReq":"ኢሜል የእትው",
+        "emailInvalid":"ዝሰርሕ ኢሜይል የእትው",
+        "messageReq":"መልእኽቲ የእትው",
+        "name":"ሽም",
+        "email":"ኢሜል",
+        "message":"መልእኽቲ",
+        "loading":"ኣብ ምላኽ",
+        "btnName":"ኢሜል ለኣኽ",
+        "toastTitle":"ኢሜል",
+        "toastSuccess":"መልእኽቶም ተቀቢልና የቐንየልና",
+        "toastError":"መልዕክትዎ አልደረሰም"
+    }
+}
