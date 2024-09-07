@@ -21,7 +21,7 @@
     },
     "ListEqubes": {
         "title": "List of Equbes",
-        "des": "List of all Equb's of the house",
+        "des": "List of all Equb's of user",
         "table": {
             "name": "Name",
             "contribution": "Amount",
@@ -34,7 +34,7 @@
     "contribution": {
         "title": "Equb Payments",
         "round": "Round",
-        "des": "All payments of this equb",
+        "des": "All payments of this member",
         "equbLeveltitle": "Equb-Level",
         "equbLevelContribution": "Contribution",
         "paymentStatus": "Payment Status",

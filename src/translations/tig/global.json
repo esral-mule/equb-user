@@ -32,15 +32,15 @@
         }
     },
     "contribution": {
-        "title": "የክፍያ መዝገብ",
+        "title": "ክፍሊት መዝገብ",
         "round": "ዙር",
-        "des": "የዚህ ዕቁብ ክፍያዎች ዝርዝር",
+        "des": "ናይዚ ዕቁብ ክፍሊታት ዝርዝር",
         "equbLeveltitle": "ደረጃ",
-        "equbLevelContribution": "ደርጃ በቁጥር",
-        "paymentStatus": "የክፍያ ሁኔታ",
-        "contributions": "ክፍያዎች",
-        "paid": "ተኸፊሉተከፍሏል",
-        "unpaid": "አልተከፈለም"
+        "equbLevelContribution": "ደርጃ ብኣሃዝ",
+        "paymentStatus": "ክፍሊት ኩነት",
+        "contributions": "ክፍሊታት",
+        "paid": "ተኸፊሉ",
+        "unpaid": "ኣይተኸፈለን"
     },
     "support": {
         "nameReq": "ሽም የእትው",
