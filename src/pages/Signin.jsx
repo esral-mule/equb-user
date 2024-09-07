@@ -38,7 +38,7 @@ export default function Signin() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    API.post("/users/login", {
+    API.post("/member/login", {
       phoneNumber,
       password,
     })

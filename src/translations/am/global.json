@@ -19,21 +19,6 @@
         "confirm": "ኣዎ ልውጣ",
         "declain": "ኣይ መልሰኝ"
     },
-    "creatUser": {
-        "title": "ዕቁብተኛ ይመዝግቡ",
-        "fullName": "ሙሉ ስም",
-        "username": "ልዩ መለያ ስም",
-        "phoneNumber": "ስልክ ቁጥር",
-        "password": "የሚስጥር ቃል",
-        "createEquber": "ዕቁብተኛ መዝግብ",
-        "loading": "በመመዝገብ ላይ",
-        "placeHolder": {
-            "fullName": "ሙሉ ስም ያስገቡ",
-            "username": "ልዩ መለያ ስም ያስገቡ",
-            "phoneNumber": "ስልክ ቁጥር ያስገቡ",
-            "password": "የሚስጥር ቃል ያስገቡ"
-        }
-    },
     "ListEqubes": {
         "title": "የዕቁቦች ዝርዝር",
         "des": "የቤቱ ሙሉ የዕቁቦች ዝርዝር",
@@ -46,211 +31,29 @@
             "numberOfequbes": "ዕቁቦች"
         }
     },
-    "createeqube": {
-        "title": "ኣዲስ ዕቁብ መዝግብ",
-        "equbName": "የዕቁብ ስም",
-        "contribution": "የክፍያ መጠን",
-        "maxUniqueIds": "የዕጣ ብዛት",
-        "lotteryDay": "ዕጣ የሚወጣበት ቀን",
-        "contributionDay": "ክፍያ መሰብሰብያ ቀን",
-        "create": "ዕቁብ መዝግብ",
-        "loading": "በመመዝገብ ላይ",
-        "placeHolder": {
-            "equbName": "ዕቁብ ስም ያስገቡ",
-            "contribution": "የክፍያ መጠን ያስገቡ",
-            "maxUniqueIds": "የዕጣ ብዛት ያስገቡ",
-            "lotteryDay": "ዕጣ የሚወጣበት ቀን ያስገቡ",
-            "contributionDay": "ክፍያ መሰብሰብያ ቀን ያስገቡ"
-        }
-    },
-    "tabs": {
-        "members": {
-            "tabTitle": "ኣባሎች",
-            "title": "የኣባሎች ዝርዝር",
-            "des": "ሙሉ የኣባሎች ዝርዝር",
-            "print": "አትም",
-            "loading": "loading",
-            "searchPlaceHolder": "ኣባል ፈልግ...",
-            "columns": "አምዶች",
-            "addMember": "ኣባል መዝግብ",
-            "of": "ከ",
-            "members":"የዕቁብ ኣባሎች"
-        },
-        "roundes": {
-            "tabTitle": "ታሪክ"
-        },
-        "active": {
-            "tabTitle": "በመካሄድ ላይ ያለ",
-            "title": "በመካሄድ ላይ ያለ ዙር",
-            "des": "በመካሄድ ላይ ያለ የዕቁቡ ዙር"
-        },
-        "equbLevel": {
-            "tabTitle": "ደረጃዎች"
-        }
-    },
-    "membersTable": {
-        "fullName": "ስም",
-        "phoneNumber": "ስልክ ቁጥር",
-        "level": "ደረጃ",
-        "uniqueId": "ዕጣ ቁጥር",
-        "actions": "ድርጊቶች",
-        "detail": "ዝርዝር",
-        "delete": "ሰርዝ",
-        "previous": "ቀዳሚ",
-        "next": "ቀጥሎ",
-        "memebers": "ኣባሎች",
-        "of": "ከ"
-    },
-    "memberDetail": {
-        "detail": "ዝርዝር",
-        "title": "የኣባል ዝርዝር",
-        "des": "የኣባል ዝርዝር መረጃ",
-        "fullName": "ስም:",
-        "phoneNumber": "ስልክ ቁጥር",
-        "username": "ልዩ መለያ ስም",
-        "equbType": "የዕቁብ ስም",
-        "equbLevel:": "የዕቁብ ደረጃ",
-        "uniqueId": "ዕጣ ቁጥር",
-        "close": "መልሰኝ"
-    },
-    "memberDelete": {
-        "delete": "ኣጥፋ",
-        "title": "ኣባል ኣጥፋ",
-        "des": "ይህ ኣባል ከዚህ ዕቁብ መዝገብ ለማጥፋት ያረጋግጡ",
-        "close": "ኣይ መልሰኝ",
-        "confirm": "እዎ ኣጥፋ"
-    },
-    "addMember": {
-        "name": "ኣባል መዝግብ",
-        "title": "የዕቁብ ኣባል መዝግብ",
-        "des": "ሁሉም ኣስፈላጊ መረጃዎች በሞምላት የዕቁብ ኣባል ይመዝግቡ",
-        "member": "ኣባል",
-        "equbLevel": "የዕቁብ ደረጃ",
-        "uniqueId": "ዕጣ ቁጥር",
-        "close": "መልሰኝ",
-        "confirm": "የዕቁብ ኣባል መዝግብ",
-        "selectUser": "ተጠቃሚ ይምረጡ",
-        "selectEqubLevel": " የዕቁብ ደረጃ ይምረጡ",
-        "SelectUniqueId": "ዕጣ ቁጥር ይምረጡ"
-    },
-    "creatNewUser": {
-        "name": "ተጠቃሚ መዝግብ",
-        "title": "ተጠቃሚ መዝግብ",
-        "des": "ኣዲስ ተጠቃሚ መዝግብ",
-        "fullName": "ስም",
-        "phoneNumber": "ስልክ ቁጥር",
-        "username": "ልዩ መለያ ስም",
-        "password": "የሚስጥር ቃል",
-        "loading": "በመመዝገብ ላይ",
-        "confirm": "መዝግብ",
-        "placeholders": {
-            "fullName": "ስም ያስገቡ",
-            "phoneNumber": "ስልክ ቁጥር ያስገቡ",
-            "username": "ልዩ መለያ ስም ያስገቡ",
-            "password": "የሚስጥር ቃል ያስገቡ"
-        }
-    },
-    "addEqubLevel": {
-        "name": "ኣዲስ ደረጃ",
-        "title": "ኣዲስ ደረጃ",
-        "des": "ኣዲስ ደረጃ ጨምር",
-        "lable": "ስም",
-        "contribution": "የብር ብዛት",
-        "cancel": "መልሰኝ",
-        "loading": "በመመዝገብ ላይ",
-        "confirm": "መዝግብ"
-    },
-    "uniqueIdDetail": {
-        "fullName": "ስም",
-        "level": "ደረጃ",
-        "amount": "የብር ብዛት",
-        "total": "ኣጠቃላይ የብር ብዛት",
-        "noMember": "ይህ እጣ ቁጥር ኣልተያዘም"
-    },
-    "equbLevels": {
-        "title": "የዕቁብ ደረጃዎች",
-        "des": "ሁሉም የዚህ ዕቁብ ደረጃዎች",
-        "levelTitle": "ደረጃ",
-        "contribution": "የብር ብዛት",
-        "actions": "ድርጊቶች",
-        "equbLevels": "የዕቁብ ደረጃዎች"
-    },
-    "deleteEqubLevel": {
-        "delete": "ኣጥፋ",
-        "title": "ዕቁብ ደረጃ ኣጥፋ",
-        "des": "ይህ የዕቁብ ደረጃ ለማጥፋት ያረጋግጡ",
-        "fullName": "ስም",
-        "level": "ደረጃ",
-        "amount": "የብር ብዛት",
-        "noMember": "ይህ እጣ ቁጥር ኣልተያዘም",
-        "cancel": "መልሰኝ"
-    },
-    "contributionTable": {
-        "columns": "አምዶች",
-        "noresult": "ውጤት የለም",
-        "pre": "ቀዳሚ",
-        "next": "ቀጣይ",
-        "fullName": "ስም",
-        "phoneNumber": "ስልክ ቁጥር",
-        "contribution": "የብር ብዛት",
-        "status": "የክፍያ ሁኔታ",
-        "actions": "ድርጊቶች",
-        "of": "ከ",
-        "contributions": "የክፍያ መዝገቦች",
+    "contribution": {
+        "title": "Equb Payments",
+        "round": "Round",
+        "des": "All payments of this equb",
+        "equbLeveltitle": "Equb-Level Name",
+        "equbLevelContribution": "Equb-Level Contribution",
+        "paymentStatus": "Payment Status",
+        "contributions": "Contributions",
         "paid": "ተከፍሏል",
         "unpaid": "ኣልተከፈለም"
     },
-    "updatePayment": {
-        "name": "ቀይር",
-        "title": "የክፍያ ሁነት መቀየር",
-        "des": "የክፍያ ሁነት ለመቀየር እርግጠኛ ኖት?",
-        "cancel": "መልሰኝ",
-        "confirm": "የክፍያ ሁነት ቀይር"
-    },
-    "closeActiveRound": {
-        "name": "ዙር ዝጋ",
-        "title": "ዕጣ የመውጫ ቀን",
-        "des": "የኣሸናፊ ዕጣ ቁጥር ያስገቡ",
-        "searchPlaceHolder": "ዕጣ ቁጥር ይምረጡ",
-        "uniqueId": "ዕጣ ቁጥር",
-        "cancel": "መልሰኝ",
-        "confirm": "ዙር ዝጋ"
-    },
-    "startRound": {
-        "name": "ኣዲስ ዙር ጀምር",
-        "title": "ኣዲስ ዙር ጀምር",
-        "des": "ኣዲስ ዙር ለመጀመር እርግጠኛ ኖት?",
-        "cancel": "መልሰኝ",
-        "confirm": "ኣዲስ ዙር ጀምር"
-    },
-    "roundes": {
-        "title": "የዕቁቡ ዙሮች",
-        "des": "ከተዘረዘሩት የዕቁቡ ዙሮች ኣንዱን ይምረጡ"
-    },
-    "selectRound": {
-        "placeholder": "ዙር ይምረጡ",
-        "roundes": "ዙሮች",
-        "round": "ዙር"
-    },
-    "deleteEqub":{
-        "name":"ኣጥፋ",
-        "title":"ዕቁብ ኣጥፋ",
-        "des":"ይህ ዕቁብ ለማጥፋት ያረጋግጡ",
-        "cancel":"ኣይ መልሰኝ",
-        "confirm":"እዎ ኣጥፋ"   
-    },
-    "support":{
-        "nameReq":"ስም ያስገቡ",
-        "emilReq":"ኢሜል ያስገቡ",
-        "emailInvalid":"የሚሰራ ኢሜይል ያስገቡ",
-        "messageReq":"መልእክት ያስገቡ",
-        "name":"ስም",
-        "email":"ኢሜል",
-        "message":"መልእክት",
-        "loading":"በመላክ ላይ",
-        "btnName":"ኢሜል ላክ",
-        "toastTitle":"ኢሜል",
-        "toastSuccess":"መልዕክትዎን ተቀብለናል እናመሰግናለን",
-        "toastError":"መልዕክትዎ አልደረሰም"
+    "support": {
+        "nameReq": "ስም ያስገቡ",
+        "emilReq": "ኢሜል ያስገቡ",
+        "emailInvalid": "የሚሰራ ኢሜይል ያስገቡ",
+        "messageReq": "መልእክት ያስገቡ",
+        "name": "ስም",
+        "email": "ኢሜል",
+        "message": "መልእክት",
+        "loading": "በመላክ ላይ",
+        "btnName": "ኢሜል ላክ",
+        "toastTitle": "ኢሜል",
+        "toastSuccess": "መልዕክትዎን ተቀብለናል እናመሰግናለን",
+        "toastError": "መልዕክትዎ አልደረሰም"
     }
 }

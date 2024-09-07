@@ -3,10 +3,11 @@ export default function Logo() {
     <div>
       <svg
         version="1.1"
-        viewBox="0 0 1580 1580"
+        viewBox="0 0 1450 1450"
         width="80"
         height="60"
         xmlns="http://www.w3.org/2000/svg"
+        transform="translate(-10,-2)"
       >
         <path
           transform="translate(393,768)"

@@ -20,10 +20,10 @@ export default function ListEqubes() {
 
   const getEqubs = () => {
     setIsLoading(true);
-    API.get("/equb-type/", {})
+    API.get("/member/equb-types/")
       .then((data) => {
         setIsLoading(false);
-        setEqubs(data.data.data);
+        setEqubs(data.data.data.map(item => item.equbType));
       })
       .catch(() => {
         setIsLoading(false);

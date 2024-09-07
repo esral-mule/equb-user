@@ -95,12 +95,14 @@ const Layout = () => {
                 </nav> */}
               </TooltipProvider>
             </aside>
+            <div className="flex items-center">
             <Sheet>
               <SheetTrigger asChild>
                 <Button size="icon" variant="outline" className="sm:hidden">
                   <HamburgerMenu />
                   <span className="sr-only">Toggle Menu</span>
                 </Button>
+
               </SheetTrigger>
               <SheetContent side="left" className="sm:max-w-xs">
                 <SheetHeader>
@@ -138,13 +140,14 @@ const Layout = () => {
                 </nav>
               </SheetContent>
             </Sheet>
+            <Logo />
+            </div>
 
             <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
               <Link
                 to="/"
                 className="flex items-center gap-2 text-lg font-semibold md:text-base"
               >
-                <Logo />
                 <span className="sr-only">{t("layout.logoName")}</span>
               </Link>
               <div className="ml-auto flex-1 sm:flex-initial"></div>

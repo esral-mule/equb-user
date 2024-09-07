@@ -8,10 +8,11 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Signin from "./pages/Signin";
 import Logout from "./pages/Logout";
 import { AnimatePresence } from "framer-motion";
-// import ListEqubes from "./pages/ListEqubes";
+import ListEqubes from "./pages/ListEqubes";
 import Settings from "./pages/Settings";
 import Support from "./pages/Support";
 import NotFound from "./pages/NotFound";
+import Contribuitons from "./pages/Contribuitons";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
                   />
                   <Route path="/signin" element={<Signin />} />
                   <Route path="/signout" element={<Logout />} />
-                  {/* <Route path="/equbes" element={<ListEqubes />} /> */}
+                  <Route path="/equbes" element={<ListEqubes />} />
+                  <Route path="/equbdetail/:id" element={<Contribuitons />} />
                   <Route path="/settings" element={<Settings />} />
                   <Route path="/support" element={<Support />} />
                   <Route path="*" element={<NotFound />} />
