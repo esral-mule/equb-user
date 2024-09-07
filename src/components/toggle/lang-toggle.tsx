@@ -1,32 +1,36 @@
-
-
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { useTheme } from "@/components/theme-provider"
+} from "../ui/dropdown-menu"
 import * as React from "react"
-
-
 import { useTranslation } from "react-i18next";
 import { Globe } from "lucide-react";
 
 export function LangToggle() {
-  const [t, i18n] = useTranslation("global")
+  const [t, i18n] = useTranslation("global");
 
+  // Load preferred language from localStorage when the component mounts
+  React.useEffect(() => {
+    const storedLang = localStorage.getItem("preferredLanguage");
+    if (storedLang) {
+      i18n.changeLanguage(storedLang);
+    }
+  }, [i18n]);
+
+  // Handle language change and store the preference in localStorage
   const handleChangeLanguage = (lang) => {
-    i18n.changeLanguage(lang)
-  }
+    i18n.changeLanguage(lang);
+    localStorage.setItem("preferredLanguage", lang);
+  };
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="small">
-          {/* <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" /> */}
           <Globe strokeWidth={1.75} />
-          {/* <span className="sr-only">Toggle theme</span> */}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
@@ -41,5 +45,5 @@ export function LangToggle() {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }
