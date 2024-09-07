@@ -21,7 +21,7 @@
     },
     "ListEqubes": {
         "title": "ናይ ዕቁባት ዝርዝር",
-        "des": "ናይዚ ገዛ ሙሉእ ናይ ዕቁባት ዝርዝር",
+        "des": "ብኣባልነት ዝሳተፉሎም ዕቁባት ዝርዝር",
         "table": {
             "name": "ስም",
             "contribution": "ክፍሊት መጠን",
@@ -32,15 +32,15 @@
         }
     },
     "contribution": {
-        "title": "Equb Payments",
-        "round": "Round",
-        "des": "All payments of this equb",
-        "equbLeveltitle": "Equb-Level Name",
-        "equbLevelContribution": "Equb-Level Contribution",
-        "paymentStatus": "Payment Status",
-        "contributions": "Contributions",
-        "paid": "ተኸፊሉ",
-        "unpaid": "ኣይተኸፈለን"
+        "title": "የክፍያ መዝገብ",
+        "round": "ዙር",
+        "des": "የዚህ ዕቁብ ክፍያዎች ዝርዝር",
+        "equbLeveltitle": "ደረጃ",
+        "equbLevelContribution": "ደርጃ በቁጥር",
+        "paymentStatus": "የክፍያ ሁኔታ",
+        "contributions": "ክፍያዎች",
+        "paid": "ተኸፊሉተከፍሏል",
+        "unpaid": "አልተከፈለም"
     },
     "support": {
         "nameReq": "ሽም የእትው",
