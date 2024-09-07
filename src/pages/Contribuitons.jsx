@@ -30,8 +30,10 @@ export default function Contribuitons() {
 
   const getEqubs = () => {
     setIsLoading(true);
-    API.get(`/member/equb-types/${id}/contributions`)
+    API.get(`/contribution/equbtype/${id}`)
       .then((data) => {
+        console.log(data);
+        
         setIsLoading(false);
         setContribuitons(data.data.data);
       })
