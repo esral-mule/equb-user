@@ -32,11 +32,7 @@ export default function Contribuitons() {
     setIsLoading(true);
     API.get(`/contribution/equbtype/${id}`)
       .then((data) => {
-        console.log(data);
-        
         setIsLoading(false);
-        console.log("data.data",data.data);
-        
         setContribuitons(data.data.data);
       })
       .catch(() => {

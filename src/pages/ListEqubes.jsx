@@ -44,7 +44,9 @@ export default function ListEqubes() {
           {isLoading ? (
             <Loader2 className="mx-auto h-4 w-4 animate-spin" />
           ) : (
-            <Equbs equbs={equbs} getEqubs={getEqubs} />
+            equbs ? <Equbs equbs={equbs} getEqubs={getEqubs} /> : <Card>
+              <p>No record</p>
+            </Card>
           )}
         </CardContent>
         <CardFooter>

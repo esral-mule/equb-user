@@ -41,8 +41,22 @@ function App() {
                   />
                   <Route path="/signin" element={<Signin />} />
                   <Route path="/signout" element={<Logout />} />
-                  <Route path="/equbes" element={<ListEqubes />} />
-                  <Route path="/equbdetail/:id" element={<Contribuitons />} />
+                  <Route
+                    path="/equbes"
+                    element={
+                      <ProtectedRoute>
+                        <ListEqubes />
+                      </ProtectedRoute>
+                    }
+                  />
+                  <Route
+                    path="/equbdetail/:id"
+                    element={
+                      <ProtectedRoute>
+                        <Contribuitons />
+                      </ProtectedRoute>
+                    }
+                  />
                   <Route path="/settings" element={<Settings />} />
                   <Route path="/support" element={<Support />} />
                   <Route path="*" element={<NotFound />} />
