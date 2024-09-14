@@ -35,6 +35,8 @@ export default function Contribuitons() {
         console.log(data);
         
         setIsLoading(false);
+        console.log("data.data",data.data);
+        
         setContribuitons(data.data.data);
       })
       .catch(() => {
@@ -76,7 +78,7 @@ export default function Contribuitons() {
             </TableHeader>
 
             <TableBody>
-              {contribuitons.map((contribuiton) => (
+              {contribuitons && contribuitons.map((contribuiton) => (
                 <TableRow key={contribuiton._id}>
                   <TableCell>{contribuiton.round.round}</TableCell>
                   <TableCell>{contribuiton.member.equbLevel.title}</TableCell>

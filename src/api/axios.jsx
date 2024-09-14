@@ -9,7 +9,6 @@ export const setLogoutFunction = (logout) => {
 const API = axios.create({
   // TODO: replace URL value from env
   baseURL: "https://ekub-backend-pws7.onrender.com/api/v1",
-
 });
 
 // Request interceptor
@@ -44,7 +43,7 @@ API.interceptors.response.use(
   },
   (error) => {
     // Handle errors here
-    if (error.response && error.response.status === 401) {
+    if (error.response && error.response.status >= 401) {
       if (logoutFunction) {
         logoutFunction(); // Trigger the logout function when token is expired
       }
